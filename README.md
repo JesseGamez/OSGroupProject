@@ -5,7 +5,7 @@ This project uses two programs for the shell program. The first program uses for
 
 
 
-### Commands
+#### Commands
 lookupPath() returns the absolute path of where the command is found
 parseCommand() parses the user's command into the name (1st element in the array) and an array argv (command arguments). 
 parsePath() parses the system's PATH environment into its individual directories (this helps with searching) the directories for the library where the command may be located)
