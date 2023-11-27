@@ -1,10 +1,7 @@
 # OSGroupProject
-The purpose of this project is to 
+This project uses two programs for the shell program. For the first program we used fork to create a child process to execute the user's input (command), wait for the child to terminate and ended terminated the code. When it comes to the second program, we will use pthread_create to execute the user's command using threads instead of children.
 
 ## What to expect
-
-
-
 
 (1) lookupPath() returns the absolute path of where the command is found
 (2) parseCommand() parses the user's command into the name (1st element in the array) and an array argv (command arguments). 
