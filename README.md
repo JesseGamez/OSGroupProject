@@ -2,7 +2,7 @@
 This project uses two programs for the shell program. The first program uses fork to create a child process to execute the user's input (command), wait for the child to terminate and ended terminated the code. The second program uses pthread_create to execute the user's command using threads instead of children.
 
 ## What to expect
-
+Test
 
 
 #### Commands
